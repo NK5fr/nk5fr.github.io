@@ -1,6 +1,40 @@
 h1 {
-    background-color: black;
-    border-radius: 25px;
     color: white;
     text-align: center;
+    font-family: Arial;
+}
+
+header {
+    background-color: black;
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+section{
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-right: 20%;
+    border: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+section div:nth-child(1){
+    text-align: center;
+    background-color: aquamarine;
+    width: 34%;
+}
+
+section div:nth-child(2){
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 66%;
+}
+
+img {
+    border-radius: 50%;
+    width: 30%;
 }
