@@ -34,7 +34,7 @@ h1 {
     text-align: center;
     font-family: sans-serif;
     color: whitesmoke;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 section {
@@ -47,9 +47,9 @@ section {
     background-color: lightgreen;
     border-radius: 10px;
     padding: 2%;
-    font-size: large;
+    font-size: 80%;
     font-weight: bold;
-    line-height: 150%;
+    line-height: 200%;
 }
 
 body {
