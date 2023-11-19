@@ -71,7 +71,7 @@ hr {
     margin-bottom: 2%;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 767px){
 
     section {
         display: flex;
