@@ -39,10 +39,9 @@ h1 {
 }
 
 article {
-    overflow: hidden;
+    overflow: visible;
     font-family: sans-serif;
     width: 30%;
-    height: 30vh;
     text-align: center;
     border: solid;
     border-width: 5px;
@@ -72,7 +71,7 @@ hr {
     margin-bottom: 2%;
 }
 
-@media screen and (max-width:700px){
+@media all and (max-width:767px){
 
     section {
         display: flex;
