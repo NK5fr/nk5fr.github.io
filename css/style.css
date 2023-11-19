@@ -3,26 +3,28 @@ a {
     text-decoration: none;
     font-family: sans-serif;
     font-size: 150%;
+    padding: 20%;
 }
 
 a:hover {
-    color: lightgreen;
+    background-color: gray;
 }
 
 menu {
-    background-color: lightslategray;
-    margin:auto;
+    background-color: rgb(32, 30, 30);
+    margin:none;
     padding-left: 0px;
-    border-radius: 10px;
+    margin: 0px;
 }
 
 ul{
-    height: 3em;
+    height: 10vh;
     padding-left: 2%;
     padding-right: 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px;
 }
 
 li {
@@ -33,18 +35,19 @@ li {
 h1 {
     text-align: center;
     font-family: sans-serif;
-    color: whitesmoke;
-    font-size: xx-large;
+    color: black
 }
 
-section {
-    margin: auto;
+article {
+    overflow: hidden;
     font-family: sans-serif;
-    width: 60%;
+    width: 30%;
+    height: 30vh;
     text-align: center;
     border: solid;
+    border-width: 5px;
     border-color: black;
-    background-color: lightgreen;
+    background-color: lightgray;
     border-radius: 10px;
     padding: 2%;
     font-size: 80%;
@@ -52,6 +55,19 @@ section {
     line-height: 200%;
 }
 
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
 body {
-    background-color: darkslategray;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    margin: 0px;
+}
+
+hr {
+    border: 3px solid black;
+    width: 50%;
+    margin-bottom: 2%;
 }
