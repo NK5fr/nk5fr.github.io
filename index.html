@@ -1,52 +1,208 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="fr">
     <head>
         <title>Portfolio Nathan Desmee</title>
         <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/style.css"/>
-        <link rel="stylesheet" href="./css/index.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./script/script.js"></script>
     </head>
     <body>
-        <header>
-            <menu id="basic">
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="formation.html">Formations</a></li>
-                    <li><a href="competence.html">Compétences</a></li>
-                    <li><a href="experience.html">Expériences</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+        <header class="bg-zinc-900 text-white sticky top-0">
+            <menu class="hidden md:block">
+                <ul class="flex justify-around">
+                    <li class="p-4"><a href="#acceuil" class="block rounded text-2xl hover:bg-indigo-400">Accueil</a></li>
+                    <li class="p-4"><a href="#formation" class="block rounded text-2xl hover:bg-indigo-400">Formations</a></li>
+                    <li class="p-4"><a href="#competence" class="block rounded text-2xl hover:bg-indigo-400">Compétences</a></li>
+                    <li class="p-4"><a href="#experience" class="block rounded text-2xl hover:bg-indigo-400">Expériences</a></li>
+                    <li class="p-4"><a href="#contact" class="block rounded text-2xl hover:bg-indigo-400">Contact</a></li>
                 </ul>
             </menu>
-            <menu id="menu">
-                <p><img src="./img/menu.png" alt="menu"/></p>
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="formation.html">Formations</a></li>
-                    <li><a href="competence.html">Compétences</a></li>
-                    <li><a href="experience.html">Expériences</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+            <menu class="md:hidden">
+                <button onclick="showMenu()" class="block m-auto"><img src="./img/menu.png" alt="menu" class="w-16 py-2"/></button>
+                <ul id="hamburger" style="display: none;">
+                    <li><a href="#acceuil" class="text-center block py-2 bg-zinc-800 hover:bg-indigo-400">Accueil</a></li>
+                    <li><a href="#formation" class="text-center block py-2 bg-zinc-800 hover:bg-indigo-400">Formations</a></li>
+                    <li><a href="#competence" class="text-center block py-2 bg-zinc-800 hover:bg-indigo-400">Compétences</a></li>
+                    <li><a href="#experience" class="text-center block py-2 bg-zinc-800 hover:bg-indigo-400">Expériences</a></li>
+                    <li><a href="#contact" class="text-center block py-2 bg-zinc-800 hover:bg-indigo-400">Contact</a></li>
                 </ul>
             </menu>
         </header>
         <main>
-            <h1>CV de Nathan DESMEE</h1>
-            <hr/>
-            <section>
+            <section id="acceuil" class="h-screen">
+                <div class="h-16"></div>
+                <h1>CV de Nathan DESMEE</h1>
+                <hr/>
+                <div>
+                    <article>
+                        Je m'appelle Nathan Desmee, je suis actuellement en 2eme année de BUT informatique, 
+                        je suis passionné par le monde du jeu vidéo et de l'intelligence artificielle.
+                        Mon lien avec les jeux vidéo vient du fait que j'y joue depuis mon enfance et je réverais de pourvoir transmettre ma passion aux nouvelles générations.
+                        Quant à l'intelligence artificielle, j'aimerais pouvoir participer à son développement qui va, d'après moi, changer notre monde si elle est bien utilisée.
+                    </article>
+                    <article>
+                        Grâce à ma formation, j'ai déjà pu réaliser des projets en vu avec mes objectifs.
+                        Pour commencer, j'ai créé, avec un binôme, une base de données à partir d'un tableur pour ensuite faire des calculs statistiques grâce aux informations de cette base. 
+                        C'est un premier pas vers l'analyse de données et donc vers l'intelligence artificielle.
+                        Pour finir, dans un objectif de développement d'application, j'ai créé, en groupe, un jeu vidéo en utilisant la méthode agile SCRUM. 
+                        Cela m'a permis de faire un projet de développement de jeu ainsi que de me familiariser avec le travail d'équipe.
+                    </article>             
+                </div>
+            </section>
+            <section id="formation" class="bg-zinc-800 text-white h-screen">
+                <div class="h-16"></div>
+                <h1>Formations</h1>
+                <hr/>
                 <article>
-                    Je m'appelle Nathan Desmee, je suis actuellement en 2eme année de BUT informatique, 
-                    je suis passionné par le monde du jeu vidéo et de l'intelligence artificielle.
-                    Mon lien avec les jeux vidéo vient du fait que j'y joue depuis mon enfance et je réverais de pourvoir transmettre ma passion aux nouvelles générations.
-                    Quant à l'intelligence artificielle, j'aimerais pouvoir participer à son développement qui va, d'après moi, changer notre monde si elle est bien utilisée.
+                    <h2>BUT Informatique</h2>
+                    <p>2022 - Actuellement</p>
+                    <p>IUT de Villeneuve D'Ascq</p>
                 </article>
+                <hr/>
                 <article>
-                    Grâce à ma formation, j'ai déjà pu réaliser des projets en vu avec mes objectifs.
-                    Pour commencer, j'ai créé, avec un binôme, une base de données à partir d'un tableur pour ensuite faire des calculs statistiques grâce aux informations de cette base. 
-                    C'est un premier pas vers l'analyse de données et donc vers l'intelligence artificielle.
-                    Pour finir, dans un objectif de développement d'application, j'ai créé, en groupe, un jeu vidéo en utilisant la méthode agile SCRUM. 
-                    Cela m'a permis de faire un projet de développement de jeu ainsi que de me familiariser avec le travail d'équipe.
-                </article>             
+                    <h2>Baccalauréat Général</h2>
+                    <p>2020 - 2022</p>
+                    <p>Lycée Paul Duez</p>
+                    <p>Spécialité Mathématiques</p>
+                    <p>Spécialité Numérique et Sciences de l'Informatique</p>
+                    <p>Option Mathématiques Expertes</p>
+                </article>
+            </section>
+            <section id="competence" class="h-screen">
+                <div class="h-16"></div>
+                <h1>Compétences</h1>
+                <hr/>
+                <article>
+                    <h2>Languages de Programmation</h2>
+                    <p>Java</p>
+                    <p>C</p>
+                    <p>Python</p>
+                </article>
+                <hr/>
+                <article>
+                    <h2>Base de données relationnelles</h2>
+                    <p>SQL</p>
+                    <p>PostgreSQL</p>
+                    <p>Microsoft Access</p>
+                </article>
+                <hr/>
+                <article>
+                    <h2>Web</h2>
+                    <p>Html</p>
+                    <p>CSS</p>
+                </article>
+                <hr/>
+                <article>
+                    <h2>Logiciel de Bureautique</h2>
+                    <p>Google Docs</p>
+                    <p>Google Slide</p>
+                    <p>Google Sheet</p>
+                    <p>Microsoft Word</p>
+                    <p>Microsoft PowerPoint</p>
+                    <p>Microsoft Excel</p>
+                </article>
+                <hr/>
+                <article>
+                    <h2>Autres Connaissances</h2>
+                    <p>Jet Brains</p>
+                    <p>Visual Studio Code</p>
+                    <p>Git</p>
+                </article>
+            </section>
+            <section id="experience" class="bg-zinc-800 text-white h-screen">
+                <div class="h-16"></div>
+                <h1>Expériences</h1>
+                <hr/>
+                <article>
+                    <h2>Application de stratégie en football</h2>
+                    <p>Projet informatique personnel</p>
+                    <p>Octobre 2023</p>
+                    <p>
+                        Développement en solitaire de cette application basique permettant de visualiser des stratégies en football.
+                        Cela m'a permis d'améliorer mes compétences de développement en java en utilisant javafx pour les interfaces graphiques,
+                        ainsi qu'un patron de conception MVC accompagné du patron observateur/observé pour la structure du projet.
+                    </p>
+                </article>
+                <hr/>
+                <article>
+                    <h2>Jeu Vidéo "Les as du crous"</h2>
+                    <p>IUT de Villeneuve D'Ascq</p>
+                    <p>Projet informatique</p>
+                    <p>Septembre 2023</p>
+                    <p>
+                        Développement en groupe durant une semaine de ce jeu vidéo en utilisant la méthode agile SCRUM.
+                        Cela m'a permis d'avoir une première introduction à une méthode agile utilisée dans le monde professionnel.
+                        De plus, cela m'a permis d'améliorer mes compétences en développement de jeu vidéo.
+                    </p>
+                </article>
+                <hr/>
+                <article>
+                    <h2>Création et utilisation d'une base de données</h2>
+                    <p>IUT de Villeneuve D'ascq</p>
+                    <p>Projet informatique</p>
+                    <p>Avril 2023 - Juin 2023</p>
+                    <p>
+                        Projet en binôme concistant à la création d'une base de données correctemennt structurée à 
+                        partir d'une liste d'information sur un tableur. Le but secondaire de ce projet était de récupérer les données
+                        pour faire une certain nombre de calculs statistiques à représenter sous forme de graphiques.
+
+                    </p>
+                </article>
+                <hr/>
+                <article>
+                    <h2>Application de gestion de correspondance à l'étranger</h2>
+                    <p>Projet informatique</p>
+                    <p>IUT de Villeneuve D'ascq</p>
+                    <p>Avril 2023 - Juin 2023</p>
+                    <p>
+                        Développement en groupe d'une application en java avec interface graphique permettant à un utilisateur
+                        de gérer les correspondances de ses étudiants à l'étranger. Les appariements entre les étudiants des différents pays 
+                        sont gérés automatiquement selon des critères propre à chaque étudiant. Ce projet m'a permis d'améliorer mes compétences 
+                        en développement d'application en java.
+                    </p>
+                </article>
+                <hr/>
+                <article>
+                    <h2>Préparateur de commande en entrepôt</h2>
+                    <p>Columbia - Raillencourt St Olle</p>
+                    <p>Experience professionnelle hors informatique</p>
+                    <p>juillet 2022 - aout 2022</p>
+                    <p>juillet 2023 - septembre 2023</p>
+                    <p>
+                        J'ai travaillé plusieurs fois pour la société Columbia en tant que préparateur de commande en entrepôt. 
+                        Cette expérience n'est pas en accord direct avec mes études mais m'a permis cependant d'améliorer mon efficacité 
+                        dans le tarvail d'équipe mais également d'avoir une première expérience dans le monde du travail en entreprise.
+                    </p>
+                </article>
+            </section>
+            <section id="contact" class="h-screen">
+                <div class="h-16"></div>
+                <h1>Contacts</h1>
+                <hr/>
+                <article>
+                    <h2>Courrier</h2>
+                    <p>24 Grand Rue</p>
+                    <p>Séranvillers-Forenville, 59400</p>
+                    <p>France</p>
+                </article>
+                <hr/>
+                <article>
+                    <h2>Mail</h2>
+                    <p>nathan.desmee.etu@univ-lille.fr</p>
+                    <p>nathan.desmee@orange.fr</p>
+                </article>
+                <hr/>
+                <article>
+                    <h2>Téléphone</h2>
+                    <p>(+33) 7 66 47 73 04</p>
+                </article>
+                <hr/>
+                <article>
+                    <h2>Lien vers mon CV</h2>
+                    <a href="res/CV Nathan DESMEE.pdf">Télécharger CV</a>
+                </article>
             </section>
         </main>
     </body>
