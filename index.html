@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://kit.fontawesome.com/655e475bd8.js" crossorigin="anonymous"></script>
+        <script src="./script/main.js" defer></script>
     </head>
     <body>
         <header class="bg-zinc-900 text-white sticky top-0">
@@ -20,7 +21,7 @@
                 </ul>
             </nav>
             <menu class="md:hidden">
-                <button onclick="hamburger()" class="block m-auto"><img src="./img/menu.png" alt="menu" class="w-16 py-2"/></button>
+                <button class="block m-auto"><img src="./img/menu.png" alt="menu" class="w-16 py-2"/></button>
                 <ul id="hamburger" style="display: none;">
                     <li><a href="#apropos" class="text-center text-xl block py-2 bg-zinc-800 hover:bg-indigo-400 link">A propos</a></li>
                     <li><a href="#formation" class="text-center text-xl block py-2 bg-zinc-800 hover:bg-indigo-400 link">Formations</a></li>
@@ -123,30 +124,6 @@
                 <h1 class="text-center text-3xl md:col-span-3 col-span-1">Expériences</h1>
                 <hr class="border-8 border-white w-2/3 rounded m-auto my-6 md:col-span-3 col-span-1"/>
                 <article class="m-8 border-white border-4 rounded p-4 flex flex-col">
-                    <h2 class="text-xl block m-auto my-4"><i class="fa-solid fa-futbol mx-2"></i>Application de stratégie en football</h2>
-                    <p>Projet informatique personnel</p>
-                    <p>Octobre 2023</p>
-                    <p>
-                        Développement en solitaire de cette application basique permettant de visualiser des stratégies en football.
-                        Cela m'a permis d'améliorer mes compétences en <i class="text-rose-400">développement d'applications en java</i> en utilisant javafx pour les interfaces graphiques,
-                        ainsi qu'un <i class="text-rose-400">patron de conception MVC</i> accompagné du patron observateur/observé pour la structure du projet.
-                    </p>
-                    <a href="https://github.com/NK5fr/FootStratApp" class="my-2 text-cyan-500">Voir Projet</a>
-                </article>
-                <article class="m-8 border-white border-4 rounded p-4 flex flex-col">
-                    <img src="./img/univ-lille.png" alt="univ-lille" class="w-1/3 mx-auto"/>
-                    <h2 class="text-xl block m-auto my-4"><i class="fa-solid fa-heart mx-2"></i>Jeu Vidéo "Les as du crous"</h2>
-                    <p>IUT de Villeneuve D'Ascq</p>
-                    <p>Projet informatique</p>
-                    <p>Septembre 2023</p>
-                    <p>
-                        Développement en groupe durant une semaine de ce jeu vidéo en utilisant la méthode agile SCRUM.
-                        Cela m'a permis d'avoir une première introduction à <i class="text-rose-400">une méthode agile utilisée dans le monde professionnel</i>.
-                        De plus, cela m'a permis d'améliorer mes compétences en <i class="text-rose-400">développement de jeu vidéo</i>.
-                    </p>
-                    <a href="https://gitlab.univ-lille.fr/2023-projet-agile-de-rentree/groupe-19" class="my-2 text-cyan-500">Voir Projet</a>
-                </article>
-                <article class="m-8 border-white border-4 rounded p-4 flex flex-col">
                     <img src="./img/univ-lille.png" alt="univ-lille" class="w-1/3 mx-auto"/>
                     <h2 class="text-base block m-auto my-4"><i class="fa-solid fa-database mx-2"></i>Création et utilisation d'une base de données</h2>
                     <p>IUT de Villeneuve D'ascq</p>
@@ -172,10 +149,7 @@
                         sont gérés automatiquement selon des critères propre à chaque étudiant. Ce projet m'a permis d'améliorer mes compétences 
                         en <i class="text-rose-400">développement d'application en java</i>.
                     </p>
-                    <a href="https://gitlab.univ-lille.fr/sae2.01-2.02/2023/A1" class="my-2 text-cyan-500">Voir Projet</a>
-                </article>
-                <article class="justify-center flex-col items-center md:flex hidden m-8 p-4">
-                    <i class="fa-solid fa-circle-check text-9xl"></i>
+                    <a href="https://github.com/NK5fr/SejourLinguistique.git" class="my-2 text-cyan-500">Voir Projet</a>
                 </article>
                 <article class="m-8 border-white border-4 rounded p-4 flex flex-col">
                     <img src="./img/columbia.png" alt="logo columbia" class="w-1/3 mx-auto"/>
@@ -190,6 +164,79 @@
                         dans le <i class="text-rose-400">travail d'équipe</i> mais également d'avoir une <i class="text-rose-400">première expérience dans le monde du travail en entreprise</i>.
                     </p>
                     <a href="https://www.columbiasportswear.fr" class="my-2 text-cyan-500">Voir Entreprise</a>
+                </article>
+                <article class="m-8 border-white border-4 rounded p-4 flex flex-col">
+                    <img src="./img/univ-lille.png" alt="univ-lille" class="w-1/3 mx-auto"/>
+                    <h2 class="text-xl block m-auto my-4"><i class="fa-solid fa-heart mx-2"></i>Jeu Vidéo "Les as du crous"</h2>
+                    <p>IUT de Villeneuve D'Ascq</p>
+                    <p>Projet informatique</p>
+                    <p>Septembre 2023</p>
+                    <p>
+                        Développement en groupe durant une semaine de ce jeu vidéo en utilisant la méthode agile SCRUM.
+                        Cela m'a permis d'avoir une première introduction à <i class="text-rose-400">une méthode agile utilisée dans le monde professionnel</i>.
+                        De plus, cela m'a permis d'améliorer mes compétences en <i class="text-rose-400">développement de jeu vidéo</i>.
+                    </p>
+                    <a href="https://github.com/NK5fr/ProjetAgile.git" class="my-2 text-cyan-500">Voir Projet</a>
+                </article>
+                <article class="justify-center flex-col items-center md:flex hidden m-8 p-4">
+                    <i class="fa-solid fa-circle-check text-9xl"></i>
+                </article>
+                <article class="m-8 border-white border-4 rounded p-4 flex flex-col">
+                    <h2 class="text-xl block m-auto my-4"><i class="fa-solid fa-futbol mx-2"></i>Application de stratégie en football</h2>
+                    <p>Projet informatique personnel</p>
+                    <p>Octobre 2023</p>
+                    <p>
+                        Développement en solitaire de cette application basique permettant de visualiser des stratégies en football.
+                        Cela m'a permis d'améliorer mes compétences en <i class="text-rose-400">développement d'applications en java</i> en utilisant javafx pour les interfaces graphiques,
+                        ainsi qu'un <i class="text-rose-400">patron de conception MVC</i> accompagné du patron observateur/observé pour la structure du projet.
+                    </p>
+                    <a href="https://github.com/NK5fr/FootStratApp" class="my-2 text-cyan-500">Voir Projet</a>
+                </article>
+                <article class="m-8 border-white border-4 rounded p-4 flex flex-col">
+                    <img src="./img/univ-lille.png" alt="univ-lille" class="w-1/3 mx-auto"/>
+                    <h2 class="text-base block m-auto my-4"><i class="fa-solid fa-spaghetti-monster-flying mx-2"></i>Chasse au Monstre</h2>
+                    <p>IUT de Villeneuve D'ascq</p>
+                    <p>Projet informatique</p>
+                    <p>Septembre 2023 - Janvier 2023</p>
+                    <p>
+                        Développement en groupe d'une application en java avec interface graphique permettant de jouer au jeu de la 
+                        chasse au monstre. Le but de ce jeu est de se faire faire affronter deux joueurs, un monstre et un chasseur, 
+                        le monstre doit trouver la sortie du labyrinthe avant que le chasseur ne le trouve. 
+                        Ce projet m'a permis de <i class="text-rose-400">développer de manière plus ordonnée en utilisant
+                        des patrons de conceptions tel que le patron observateur/observé et le patron MVC</i>. Cela m'a également permis
+                        de <i class="text-rose-400">travailler sur une intelligence artificielle</i> (pour jouer en solo contre une IA).
+                    </p>
+                    <a href="https://github.com/NK5fr/ChasseAuMonstre.git" class="my-2 text-cyan-500">Voir Projet</a>
+                </article>
+                <article class="m-8 border-white border-4 rounded p-4 flex flex-col">
+                    <img src="./img/univ-lille.png" alt="univ-lille" class="w-1/3 mx-auto"/>
+                    <h2 class="text-base block m-auto my-4"><i class="fa-solid fa-pizza-slice mx-2"></i>Pizzeria API</h2>
+                    <p>IUT de Villeneuve D'ascq</p>
+                    <p>Projet informatique</p>
+                    <p>Fevrier 2024 - Mars 2024</p>
+                    <p>
+                        Mis en place en binôme d'une API REST en java pour une Pizzeria. Cette API permet de gérer les ingrédients,
+                        les pizzas et les commandes de la pizzeria. L'utilisateur peut utiliser une multitude de requête http
+                        pour gérer les données de la base dans la limite autorisée si il n'a pas de token d'authentification.
+                        Ce projet m'a permis d'avoir une première expérience en <i class="text-rose-400">création d'API REST</i> mais
+                        surtout de <i class="text-rose-400">savoir gérer les actions faites sur une base de données</i>.
+                    </p>
+                    <a href="https://github.com/NK5fr/PizzeriaAPI.git" class="my-2 text-cyan-500">Voir Projet</a>
+                </article>
+                <article class="m-8 border-white border-4 rounded p-4 flex flex-col">
+                    <img src="./img/univ-lille.png" alt="univ-lille" class="w-1/3 mx-auto"/>
+                    <h2 class="text-base block m-auto my-4"><i class="fa-solid fa-cloud mx-2"></i>Heaven Must Fall</h2>
+                    <p>IUT de Villeneuve D'ascq</p>
+                    <p>Projet informatique</p>
+                    <p>Fevrier 2024 - Avril 2024</p>
+                    <p>
+                        Développement en groupe d'une application en javascript, l'application est un jeu de type "Shoot them up" 
+                        où le backend est fait avec node js et le frontend en javascript vanilla. Les joueurs peuvent jouer en solo ou en
+                        multijoueur. Ils possèdent chacun un compte qu'il peuvent personnaliser et améliorer. Leur objectif
+                        et de battre les sept étages du jeu le plus rapidement possible. Ce projet m'a permis d'<i class="text-rose-400">
+                        avoir une première expérience de développement d'un projet en js que ce soir en frontend ou en backend</i>.
+                    </p>
+                    <a href="https://github.com/NK5fr/sae-2024-groupeg-kiecken-desmee-gaienier.git" class="my-2 text-cyan-500">Voir Projet</a>
                 </article>
             </section>
             <section id="contact" class="grid grid-cols-1 bg-[url('/img/background.jpg')] bg-cover">
@@ -217,7 +264,5 @@
                 </article>
             </section>
         </main>
-
-        <script src="./script/script.js"></script>
     </body>
 </html>
