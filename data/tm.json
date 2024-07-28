@@ -1,0 +1,8 @@
+{
+    "title": "Team Manager",
+    "logo": "/images/pp.png",
+    "date": "Février 2024 - Juillet 2024",
+    "description": "Création d'un site web en solo permettant de gérer le mercato d'une équipe de football. Ce site fonctionne grâce à un serveur apache tomcat. Pour le back-end, il utilise des servlets java pour communiquer avec une base de données. Pour le front-end, il utilise du html ainsi que le framework css bootstrap.",
+    "skills" : "Ce projet m'a permis d'améliorer mes compétences en création de site web que ce soit pour le back-end avec les servlets java ou encore le front-end avec bootstrap.",
+    "link" : "https://github.com/NK5fr/team_manager.git"
+}

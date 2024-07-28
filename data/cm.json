@@ -1,0 +1,8 @@
+{
+    "title": "CameraManager",
+    "logo": "/images/ntnu.png",
+    "date": "avril 2024 - Juillet 2024",
+    "description": "Mise à jour d'une application utilisée pour le motion capture dans le contexte de mon stage de 2e année. Cette application utilisait des versions obsolètes d'applications et mon travail consistait à modifier l'application en binôme pour utiliser les dernières version. J'ai également ajouté des fonctionnalités supplémentaires à l'application.",
+    "skills" : "Ce projet m'a permis d'apprendre les base du langage c++ comme le fonstionnement de la POO et la gestion des pointeurs. Cela m'a également permis de comprendre l'utilisation de logiciels comme Qt pour développer des application ou encore l'API Spinnaker pour communiquer avec des caméras. Finalement ça m'a permis de travailler sur un projet dans un laboratoire spécialisée en technologies visuelles.",
+    "link" : "https://github.com/NK5fr/2024CameraManager.git"
+}

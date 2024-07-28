@@ -1,0 +1,8 @@
+{
+    "title": "Chasse au monstre",
+    "logo": "/images/univ-lille.png",
+    "date": "Septembre 2023 - Janvier 2023",
+    "description": "Développement en groupe d'une application en java avec interface graphique permettant de jouer au jeu de la chasse au monstre. Le but de ce jeu est de se faire faire affronter deux joueurs, un monstre et un chasseur, le monstre doit trouver la sortie du labyrinthe avant que le chasseur ne le trouve.",
+    "skills" : "Ce projet m'a permis de développer de manière plus ordonnée en utilisant des patrons de conceptions tel que le patron observateur/observé et le patron MVC. Cela m'a également permis de travailler sur une intelligence artificielle (pour jouer en solo contre une IA).",
+    "link" : "https://github.com/NK5fr/ChasseAuMonstre.git"
+}

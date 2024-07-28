@@ -1,0 +1,37 @@
+.projectDisplayer {
+    width: 40vh;
+    height: 40vh;
+    overflow: auto;
+}
+
+.projectManager {
+    min-height: 120vh;
+}
+
+.space {
+    width: 10%;
+}
+
+.coord hr {
+    animation: movesep 2s linear forwards;
+}
+
+@keyframes movesep {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px) {
+    .projectDisplayer {
+        width: 32vw;
+        height: 32vw;
+    }
+
+    .projectManager {
+        min-height: 70vh;
+    }
+}

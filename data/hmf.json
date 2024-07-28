@@ -1,0 +1,8 @@
+{
+    "title": "Heaven must fall",
+    "logo": "/images/univ-lille.png",
+    "date": "Fevrier 2024 - Avril 2024",
+    "description": "Développement en groupe d'une application en javascript, l'application est un jeu de type \"Shoot them up\" où le backend est fait avec node js et le frontend en javascript vanilla. Les joueurs peuvent jouer en solo ou en multijoueur. Ils possèdent chacun un compte qu'ils peuvent personnaliser et améliorer. Leur objectif est de battre les sept étages du jeu le plus rapidement possible.",
+    "skills" : "Ce projet m'a permis d' avoir une première expérience de développement d'un projet en js que ce soit en frontend ou en backend.",
+    "link" : "https://github.com/NK5fr/sae-2024-groupeg-kiecken-desmee-gaienier.git"
+}
