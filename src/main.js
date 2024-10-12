@@ -55,3 +55,10 @@ links.forEach(link => {
         visible = false;
     });
 });
+
+fetch(`/data/hmf.json`)
+    .then(response => response.json())
+    .then(data => {
+        const projectDisplayer = document.querySelector('.projectDisplayer');
+        projectDisplayer.innerHTML = renderProject(data);
+    });
