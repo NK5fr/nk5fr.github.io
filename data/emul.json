@@ -1,0 +1,8 @@
+{
+    "title": "Emulateur",
+    "logo": "/images/univ-lille.png",
+    "date": "septembre 2024 - janvier 2025",
+    "description": "Création, en binôme, d'un émulateur permettant de simuler le fonctionnement d'un ordinateur. Le processeur de cet émulateur est codé de manière à respecter l'architecture RISC-V",
+    "skills" : "Ce projet m'a permis d'avoir une première expérience en création de simulateur. J'ai pu améliorer ma compréhension et ma maîtrise de la programmation en C++. De plus, j'ai pu découvrir le fonctionnement d'un processeur RISC-V.",
+    "link" : "https://github.com/NK5fr/projet-emulateur-desmee-degez"
+}

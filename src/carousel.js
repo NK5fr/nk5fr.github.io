@@ -82,7 +82,7 @@ function renderProject(data){
     return `<div class="w-1/3 m-auto"><img src="${data.logo}" alt="${data.logo}" class="my-3"/></div><h1 class="text-xl my-3 text-red-700">${data.title}</h1><p class="my-3">${data.date}</p><p class="my-3 text-sm">${data.description}</p><p class="my-3 text-sm">${data.skills}</p><a href="${data.link}" class="my-2 text-blue-400" >Voir le projet</a>`;
 }
 
-fetch(`/data/hmf.json`)
+fetch(`/data/jo.json`)
     .then(response => response.json())
     .then(data => {
         const projectDisplayer = document.querySelector('.projectDisplayer');

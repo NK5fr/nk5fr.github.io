@@ -2,7 +2,7 @@
     "title": "Pizzaland",
     "logo": "/images/univ-lille.png",
     "date": "Fevrier 2024 - Mars 2024",
-    "description": "Mis en place en binôme d'une API REST en java pour une pizzeria. Cette API permet de gérer les ingrédients, les pizzas et les commandes de la pizzeria. L'utilisateur peut utiliser une multitude de requêtes http pour gérer les données de la base dans la limite autorisée si il n'a pas de token d'authentification.",
+    "description": "Mise en place, en binôme, d'une API REST en java pour une pizzeria. Cette API permet de gérer les ingrédients, les pizzas et les commandes de la pizzeria. L'utilisateur peut utiliser une multitude de requêtes http pour gérer les données de la base dans la limite autorisée si il n'a pas de token d'authentification.",
     "skills" : "Ce projet m'a permis d'avoir une première expérience en mise en place d'API REST mais surtout de savoir gérer les actions faites sur une base de données.",
-    "link" : "https://github.com/NK5fr/PizzeriaAPI.git"
+    "link" : "https://github.com/NK5fr/PizzeriaAPI"
 }

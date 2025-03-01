@@ -2,7 +2,7 @@
     "title": "Calendar",
     "logo": "/images/univ-lille.png",
     "date": "septembre 2024 - janvier 2025",
-    "description": "Création en binôme d'un site web permettant de prendre des rendez-vous sur un calendrier. Il est possible de créer un compte, de prendre et supprimer des rendez-vous et un administrateur peut gérer l'ensemble du site.",
-    "skills" : "Ce projet m'a permis d'avoir une première expérience en création de site avec les outils de Spring mais aussi avec les ORM grâce à JPA.",
-    "link" : "https://github.com/NK5fr/projet-web-back-desmee-degez.git"
+    "description": "Création, en binôme, d'un site web permettant de prendre des rendez-vous sur un calendrier. Il est possible de créer un compte, de prendre et supprimer des rendez-vous et un administrateur peut gérer l'ensemble du site.",
+    "skills" : "Ce projet m'a permis d'avoir une première expérience en création de site avec les outils de Spring mais aussi avec un ORM grâce à JPA.",
+    "link" : "https://github.com/NK5fr/projet-web-back-desmee-degez"
 }

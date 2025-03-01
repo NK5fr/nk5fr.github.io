@@ -34,15 +34,16 @@
             </ul>
         </menu>
     </header>
-    <section id="accueil" class="min-h-screen bg-neutral-100">
+    <section id="accueil" class="min-h-screen bg-neutral-100 py-1">
         <div class="h-16"></div>
         <h1 class="text-3xl text-center">Nathan DESMEE</h1>
         <hr class="border-4 border-black w-2/3 rounded m-auto my-6"/>
         <h1 class="text-center text-4xl mt-7 text-emerald-600">À propos de moi</h1>
         <div class="aboutMe md:w-1/2 w-2/3 m-auto my-10 text-lg text-justify">|</div>
         <div class="aboutFormation md:w-1/2 w-2/3 m-auto my-10 text-lg text-justify"></div>
+        <div class="aboutKnowHow md:w-1/2 w-2/3 m-auto my-10 text-lg text-justify"></div>
     </section>
-    <section id="formation" class="min-h-screen bg-orange-100">
+    <section id="formation" class="min-h-screen bg-orange-100 py-1">
         <div class="h-16"></div>
         <h1 class="text-3xl text-center">Formations</h1>
         <hr class="border-4 border-black w-2/3 rounded m-auto my-6"/>
@@ -52,7 +53,7 @@
                 <div class="text-box">
                     <h2>BUT Informatique</h2>
                     <small>2022 - Actuellement</small>
-                    <p>IUT de Villeneuve D'Ascq - Parcours réalisation d'application</p>
+                    <p>IUT de Villeneuve D'Ascq - Parcours développement et réalisation d'applications</p>
                     <span class="left-container-arrow"></span>
                 </div>
             </div>
@@ -61,13 +62,13 @@
                 <div class="text-box">
                     <h2>Baccalauréat Général</h2>
                     <small>2020 - 2022</small>
-                    <p>Lycée Paul Duez à Cambrai - Mention très bien, fécilitation du jury - Spécialités Mathématiques, NSI - Option Mathématiques Expertes</p>
+                    <p>Lycée Paul Duez à Cambrai - Mention très bien, félicitations du jury - Spécialités Mathématiques, NSI - Option Mathématiques Expertes</p>
                     <span class="right-container-arrow"></span>
                 </div>
             </div>
         </div>
     </section>
-    <section id="experiences" class="min-h-screen bg-teal-100">
+    <section id="experiences" class="min-h-screen bg-teal-100 py-1">
         <div class="h-16"></div>
         <h1 class="text-3xl text-center">Expériences</h1>
         <hr class="border-4 border-black w-2/3 rounded m-auto my-6"/>
@@ -91,7 +92,7 @@
                 </div>
             </div>
     </section>
-    <section id="projets" class="min-h-screen bg-rose-100">
+    <section id="projets" class="min-h-screen bg-rose-100 py-1">
         <div class="h-16"></div>
         <h1 class="text-3xl text-center">Projets</h1>
         <hr class="border-4 border-black w-2/3 rounded m-auto my-6"/>
@@ -102,27 +103,11 @@
                 </button>
                 <div class="carouselTrackContainer">
                     <ul class="carouselTrack">
-                        <li class="carouselSlide currentSlide" name="hmf">
+                        <li class="carouselSlide" name="jo">
                             <div class="carouselItem">
-                                <img class="carouselItemImage" src="/images/hmf.png" alt="heaven must fall">
+                                <img class="carouselItemImage" src="/images/jo.png" alt="Jeux Olympiques">
                                 <div class="carouselItemText">
-                                    <h2 class="text-xl">Heaven Must Fall</h2>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="carouselSlide" name="pizzaland">
-                            <div class="carouselItem">
-                                <img class="carouselItemImage" src="/images/pizzaland.png" alt="pizzaland">
-                                <div class="carouselItemText">
-                                    <h2 class="text-xl">Pizzaland</h2>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="carouselSlide" name="cam">
-                            <div class="carouselItem">
-                                <img class="carouselItemImage" src="/images/cam.png" alt="chasse au monstre">
-                                <div class="carouselItemText">
-                                    <h2 class="text-xl">Chasse au monstre</h2>
+                                    <h2 class="text-xl">Jeux Olympiques</h2>
                                 </div>
                             </div>
                         </li>
@@ -134,6 +119,30 @@
                                 </div>
                             </div>
                         </li>
+                        <li class="carouselSlide" name="cam">
+                            <div class="carouselItem">
+                                <img class="carouselItemImage" src="/images/cam.png" alt="chasse au monstre">
+                                <div class="carouselItemText">
+                                    <h2 class="text-xl">Chasse au monstre</h2>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="carouselSlide" name="pizzaland">
+                            <div class="carouselItem">
+                                <img class="carouselItemImage" src="/images/pizzaland.png" alt="pizzaland">
+                                <div class="carouselItemText">
+                                    <h2 class="text-xl">Pizzaland</h2>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="carouselSlide currentSlide" name="hmf">
+                            <div class="carouselItem">
+                                <img class="carouselItemImage" src="/images/hmf.png" alt="heaven must fall">
+                                <div class="carouselItemText">
+                                    <h2 class="text-xl">Heaven Must Fall</h2>
+                                </div>
+                            </div>
+                        </li>
                         <li class="carouselSlide" name="cm">
                             <div class="carouselItem">
                                 <img class="carouselItemImage" src="/images/cm.png" alt="CameraManager">
@@ -142,19 +151,11 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="carouselSlide" name="jo">
-                            <div class="carouselItem">
-                                <img class="carouselItemImage" src="/images/jo.png" alt="Jeux Olympiques">
-                                <div class="carouselItemText">
-                                    <h2 class="text-xl">Jeux Olympiques</h2>
-                                </div>
-                            </div>
-                        </li>
                         <li class="carouselSlide" name="tm">
                             <div class="carouselItem">
                                 <img class="carouselItemImage" src="/images/tm.png" alt="team_manager">
                                 <div class="carouselItemText">
-                                    <h2 class="text-xl">team_manager</h2>
+                                    <h2 class="text-xl">Team_manager</h2>
                                 </div>
                             </div>
                         </li>
@@ -162,7 +163,15 @@
                             <div class="carouselItem">
                                 <img class="carouselItemImage" src="/images/calendar.png" alt="calendar">
                                 <div class="carouselItemText">
-                                    <h2 class="text-xl">calendar</h2>
+                                    <h2 class="text-xl">Calendar</h2>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="carouselSlide" name="emul">
+                            <div class="carouselItem">
+                                <img class="carouselItemImage" src="/images/emul.png" alt="emul">
+                                <div class="carouselItemText">
+                                    <h2 class="text-xl">Emulateur</h2>
                                 </div>
                             </div>
                         </li>
@@ -180,12 +189,13 @@
                     <button class="carouselIndicator"></button>
                     <button class="carouselIndicator"></button>
                     <button class="carouselIndicator"></button>
+                    <button class="carouselIndicator"></button>
                 </div>
             </div>
             <div class="projectDisplayer rounded-lg border-2 border-black bg-white p-5"></div>
         </div>
     </section>
-    <section id="competences" class="min-h-screen bg-lime-100">
+    <section id="competences" class="min-h-screen bg-lime-100 py-1">
         <div class="h-16"></div>
         <h1 class="text-3xl text-center">Compétences</h1>
         <hr class="border-4 border-black w-2/3 rounded m-auto my-6"/>
@@ -196,36 +206,33 @@
                     <div class="skill-box">
                         <p class="skill-title">Java/Kotlin</p>
                         <ul class="skill-description list-none">
-                            <li class="my-1">Syntaxe</li>
-                            <li class="my-1">Programmation orientée object</li>
-                            <li class="my-1">Librairies</li>
+                            <li class="my-1">Programmation orientée objet</li>
+                            <li class="my-1">Libraries</li>
                             <li class="my-1">JDBC</li>
                             <li class="my-1">Tests JUnit</li>
+                            <li class="my-1">Programmation fonctionnelle (Kotlin)</li>
                         </ul>
                     </div>
                     <div class="skill-box">
                         <p class="skill-title">Python</p>
                         <ul class="skill-description list-none">
-                            <li class="my-1">Syntaxe</li>
-                            <li class="my-1">Programmation orientée object</li>
+                            <li class="my-1">Programmation orientée objet</li>
                             <li class="my-1">Bibliothèques</li>
                         </ul>
                     </div>
                     <div class="skill-box">
                         <p class="skill-title">C</p>
                         <ul class="skill-description list-none">
-                            <li class="my-1">Syntaxe</li>
                             <li class="my-1">Pointeurs</li>
-                            <li class="my-1">Librairies</li>
+                            <li class="my-1">Libraries</li>
                         </ul>
                     </div>
                     <div class="skill-box">
                         <p class="skill-title">C++</p>
                         <ul class="skill-description list-none">
-                            <li class="my-1">Syntaxe</li>
-                            <li class="my-1">Programmation orientée object</li>
+                            <li class="my-1">Programmation orientée objet</li>
                             <li class="my-1">Pointeurs</li>
-                            <li class="my-1">Librairies</li>
+                            <li class="my-1">Libraries</li>
                         </ul>
                     </div>
                 </div>
@@ -240,10 +247,8 @@
                             <li class="my-1">Data Manupulation Language</li>
                             <li class="my-1">Data Control Language</li>
                             <li class="my-1">Data Query Language</li>
-                            <li class="my-1">Data Control Language</li>
-                            <li class="my-1">Transaction Control Language</li>
-                            <li class="my-1">Catalogue</li>
                             <li class="my-1">SGBD PostgreSQL</li>
+                            <li class="my-1">SGBD MySQL</li>
                         </ul>
                     </div>
                     <div class="skill-box">
@@ -269,6 +274,7 @@
                             <li class="my-1">Pandas</li>
                             <li class="my-1">Matplotlib</li>
                             <li class="my-1">Seaborn</li>
+                            <li class="my-1">Scikit Learn</li>
                         </ul>
                     </div>
                 </div>
@@ -287,7 +293,7 @@
                         </ul>
                     </div>
                     <div class="skill-box">
-                        <p class="skill-title">Javascript</p>
+                        <p class="skill-title">Javascript/Typescript</p>
                         <ul class="skill-description list-none">
                             <li class="my-1">API DOM</li>
                             <li class="my-1">Requêtes AJAX</li>
@@ -302,7 +308,7 @@
                             <li class="my-1">Servlet API</li>
                             <li class="my-1">Java Server Pages</li>
                             <li class="my-1">Spring</li>
-                            <li class="my-1">JPA</li>
+                            <li class="my-1">Java Persistence API</li>
                             <li class="my-1">Express</li>
                         </ul>
                     </div>
@@ -330,6 +336,7 @@
                         <p class="skill-title">Déploiement d'applications</p>
                         <ul class="skill-description list-none">
                             <li class="my-1">Docker</li>
+                            <li class="my-1">Gitlab-CI</li>
                         </ul>
                     </div>
                     <div class="skill-box">
@@ -343,7 +350,7 @@
             </div>
         </div>
     </section>
-    <section id="contacts" class="min-h-screen bg-violet-100">
+    <section id="contacts" class="min-h-screen bg-violet-100 py-1">
         <div class="h-16"></div>
         <h1 class="text-3xl text-center">Contacts</h1>
         <hr class="border-4 border-black w-2/3 rounded m-auto my-6"/>
