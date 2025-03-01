@@ -36,12 +36,7 @@ prevButton.addEventListener('click', e => {
     moveToSlide(track, currentSlide, prevSlide);
     updateDots(currentDot, prevDot);
     const name = prevSlide.getAttribute('name');
-    fetch(`/data/${name}.json`)
-        .then(response => response.json())
-        .then(data => {
-            const projectDisplayer = document.querySelector('.projectDisplayer');
-            projectDisplayer.innerHTML = renderProject(data);
-        });
+    fetchData(name);
 });
 
 // when I click right, move slides to the right
@@ -56,12 +51,7 @@ nextButton.addEventListener('click', e => {
     moveToSlide(track, currentSlide, nextSlide);
     updateDots(currentDot, nextDot);
     const name = nextSlide.getAttribute('name');
-    fetch(`/data/${name}.json`)
-        .then(response => response.json())
-        .then(data => {
-            const projectDisplayer = document.querySelector('.projectDisplayer');
-            projectDisplayer.innerHTML = renderProject(data);
-        });
+    fetchData(name);
 });
 
 // when I click the nav indicators, move to that slide
@@ -74,17 +64,23 @@ dotsNav.addEventListener('click', e => {
     const currentDot = dotsNav.querySelector('.currentSlide');
     const targetIndex = dots.findIndex(dot => dot === targetDot);
     const targetSlide = slides[targetIndex];
+    const name = targetSlide.getAttribute('name');
     moveToSlide(track, currentSlide, targetSlide);
     updateDots(currentDot, targetDot);
+    fetchData(name);
 });
 
 function renderProject(data){
     return `<div class="w-1/3 m-auto"><img src="${data.logo}" alt="${data.logo}" class="my-3"/></div><h1 class="text-xl my-3 text-red-700">${data.title}</h1><p class="my-3">${data.date}</p><p class="my-3 text-sm">${data.description}</p><p class="my-3 text-sm">${data.skills}</p><a href="${data.link}" class="my-2 text-blue-400" >Voir le projet</a>`;
 }
 
-fetch(`/data/jo.json`)
-    .then(response => response.json())
-    .then(data => {
-        const projectDisplayer = document.querySelector('.projectDisplayer');
-        projectDisplayer.innerHTML = renderProject(data);
-    });
+function fetchData(name){
+    fetch(`/data/${name}.json`)
+        .then(response => response.json())
+        .then(data => {
+            const projectDisplayer = document.querySelector('.projectDisplayer');
+            projectDisplayer.innerHTML = renderProject(data);
+        });
+}
+
+fetchData('jo');
