@@ -10,26 +10,9 @@ window.addEventListener("load", (event) => {
     const aboutMe = document.querySelector('.aboutMe');
     const aboutFormation = document.querySelector('.aboutFormation');
     const aboutKnowHow = document.querySelector('.aboutKnowHow');
-    let i = 0;
-    const interval = setInterval(() => {
-        if(i < aboutMeText.length){
-            aboutMe.innerHTML = aboutMe.innerHTML.substring(0, aboutMe.innerHTML.length-1) + aboutMeText[i] + '|';
-        }else if(i == aboutMeText.length){
-            aboutMe.innerHTML = aboutMe.innerHTML.substring(0, aboutMe.innerHTML.length-1);
-            aboutFormation.innerHTML = aboutFormationText[0] + '|';
-        }else if(i < aboutMeText.length + aboutFormationText.length){
-            aboutFormation.innerHTML =  aboutFormation.innerHTML.substring(0, aboutFormation.innerHTML.length-1) + aboutFormationText[i - aboutMeText.length] + '|';
-        }else if(i == aboutMeText.length + aboutFormationText.length){
-            aboutFormation.innerHTML = aboutFormation.innerHTML.substring(0, aboutFormation.innerHTML.length-1);
-            aboutKnowHow.innerHTML = aboutKnowHowText[0] + '|';
-        }else if(i < aboutMeText.length + aboutFormationText.length + aboutKnowHowText.length){
-            aboutKnowHow.innerHTML = aboutKnowHow.innerHTML.substring(0, aboutKnowHow.innerHTML.length-1) + aboutKnowHowText[i - aboutMeText.length - aboutFormationText.length] + '|';
-        }else{
-            clearInterval(interval);
-            aboutKnowHow.innerHTML = aboutKnowHowText;
-        }
-        i++;
-    }, 1);
+    aboutMe.innerHTML = aboutMeText;
+    aboutFormation.innerHTML = aboutFormationText;
+    aboutKnowHow.innerHTML = aboutKnowHowText;
 });
 
 button.addEventListener("click", event => {
