@@ -3,6 +3,6 @@
     "logo": "/images/univ-lille.png",
     "date": "Fevrier 2024 - Avril 2024",
     "description": "Développement d'une application javascript, en trinôme. L'application est un jeu de type \"Shoot them up\" dans lequel le backend est fait avec node js et le frontend en javascript vanilla. Les joueurs peuvent jouer en solo ou en multijoueurs. Ils possèdent chacun un compte qu'ils peuvent personnaliser et améliorer. Leur objectif est de battre les sept étages du jeu le plus rapidement possible.",
-    "skills" : "Ce projet m'a permis d' avoir une première expérience de développement d'un projet en js que ce soit en frontend ou en backend.",
+    "skills" : "JavaScript, Node.js, HTML, CSS, Express JS",
     "link" : "https://github.com/NK5fr/sae-2024-groupeg-kiecken-desmee-gaienier"
 }

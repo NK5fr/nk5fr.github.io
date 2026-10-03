@@ -2,7 +2,7 @@
     "title": "As du crous",
     "logo": "/images/univ-lille.png",
     "date": "Septembre 2023",
-    "description": "Développement d'un jeu vidéo, en groupe, durant une semaine, en utilisant la méthode agile SCRUM.",
-    "skills" : "Ce projet m'a permis d'avoir une première introduction à une méthode agile utilisée dans le monde professionnel. De plus, j'ai pu améliorer mes compétences en développement de jeux vidéos.",
+    "description": "Développement d'un jeu vidéo durant une semaine en utilisant la méthode agile SCRUM. Ce projet s'est déroulé en groupe de 5 personnes.",
+    "skills" : "Méthode agile, SCRUM, Java",
     "link" : "https://github.com/NK5fr/ProjetAgile"
 }
